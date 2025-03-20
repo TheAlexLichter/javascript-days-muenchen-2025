@@ -10,6 +10,9 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
+    experimental: {
+      tasks: true
+    },
     storage: {
       jokes: {
         driver: 'fs-lite',
